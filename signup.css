@@ -1,0 +1,465 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+}
+
+.container {
+    width: 60%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+}
+
+.container h1 {
+    font-size: 40px;
+    margin-bottom: 4px;
+}
+
+.container p {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+
+
+
+.fb {
+    background-color: #3b5998;
+}
+
+.twt {
+    background-color: #1DA1F2;
+}
+
+.ggl {
+    background-color: #d62d20;
+}
+
+.btn {
+    padding: 10px 14px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.soxialicon {
+    margin-right: 10px;
+}
+
+.social {
+    margin-bottom: 20px;
+}
+
+.divider {
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.divider::before, .divider::after {
+    content: "";
+    background: red;
+    flex: 1
+}
+.divider {
+    margin-bottom: 35px;
+}
+
+/* This section is the style for the input types and their focus */
+
+input[type=text] {
+    font-size: 20px;
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    text-indent: 30px;
+}
+
+input[type=text]:focus {
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid rgb(229, 58, 58);
+    outline: none;
+}
+
+input[type=email] {
+    font-size: 20px;
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    text-indent: 35px;
+}
+
+input[type=email]:focus {
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid rgb(229, 58, 58);
+    outline: none;
+}
+
+input[type=tel] {
+    font-size: 20px;
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    text-indent: 35px;
+}
+
+input[type=tel]:focus {
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid rgb(229, 58, 58);
+    outline: none;
+}
+
+input[type=password] {
+    font-size: 20px;
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    text-indent: 35px;
+}
+
+input[type=password]:focus {
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid rgb(229, 58, 58);
+    outline: none;
+}
+
+input[type=submit] {
+    font-size: 25px;
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    background-color: lightgreen;
+    margin-top: 33px;
+    
+}
+
+
+/* place golder style */
+
+::placeholder {
+    font-size: 25px;
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 10px;
+}
+
+
+
+/* This section is the style for the icons in the input elements */
+
+.usericon {
+    position: relative;  
+}
+
+.user {
+    position: absolute;
+    top:22%;
+    left: 24%;
+}
+
+.emailicon {
+    position: relative;  
+}
+
+.eml {
+    position: absolute;
+    top:22%;
+    left: 24%;
+}
+
+.phoneicon {
+    position: relative;  
+}
+
+.phone {
+    position: absolute;
+    top:22%;
+    left: 24%;
+}
+
+.keyicon {
+    position: relative;  
+}
+
+.key {
+    position: absolute;
+    top:22%;
+    left: 24%;
+}
+
+.ckeyicon {
+    position: relative;  
+}
+
+.ckey {
+    position: absolute;
+    top:22%;
+    left: 24%;
+}
+
+.usericon, .emailicon, .phoneicon, .keyicon, .ckeyicon {
+    margin-top: 25px;
+}
+
+
+
+.ico {
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 580px) {
+
+    .btn {
+        padding: 10px 8px;
+        color: white;
+        border-radius: 10px;
+        text-decoration: none;
+        margin: 0 2px;
+    }
+
+    .container h1 {
+        font-size: 30px;
+        margin-bottom: 4px;
+    }
+
+    input[type=text] {
+        font-size: 20px;
+        width: 90%;
+        padding: 15px;
+        border-radius: 15px;
+        border: 1px solid gray;
+        text-indent: 30px;
+    }
+    
+    input[type=email] {
+        font-size: 20px;
+        width: 90%;
+        padding: 15px;
+        border-radius: 15px;
+        border: 1px solid gray;
+        text-indent: 30px;
+    }
+    
+
+    
+    input[type=tel] {
+        font-size: 20px;
+        width: 90%;
+        padding: 15px;
+        border-radius: 15px;
+        border: 1px solid gray;
+        text-indent: 30px;
+    }
+    
+    input[type=password] {
+        font-size: 20px;
+        width: 90%;
+        padding: 15px;
+        border-radius: 15px;
+        border: 1px solid gray;
+        text-indent: 30px;
+    }
+    
+    input[type=submit] {
+        font-size: 25px;
+        width: 50%;
+        padding: 15px;
+        border-radius: 15px;
+        border: 1px solid gray;
+        background-color: lightgreen;
+        margin-top: 33px;   
+    }
+
+    .user {
+        position: absolute;
+        top:22%;
+        left: 3%;
+    }
+    
+    .emailicon {
+        position: relative;  
+    }
+    
+    .eml {
+        position: absolute;
+        top:22%;
+        left: 3%;
+    }
+    
+    .phoneicon {
+        position: relative;  
+    }
+    
+    .phone {
+        position: absolute;
+        top:22%;
+        left: 3%;
+    }
+    
+    .keyicon {
+        position: relative;  
+    }
+    
+    .key {
+        position: absolute;
+        top:22%;
+        left: 3%;
+    }
+    
+    .ckeyicon {
+        position: relative;  
+    }
+    
+    .ckey {
+        position: absolute;
+        top:22%;
+        left: 3%;
+    }
+
+    .ico {
+        font-size: 20px;
+    }
+
+ 
+}
+
+@media screen and (max-width: 490px) {
+
+        .btn {
+            padding: 10px 8px;
+            color: white;
+            border-radius: 10px;
+            text-decoration: none;
+            margin: 0 2px;
+            display: block;
+        }
+
+        ::placeholder {
+            font-size: 20px;
+            color: gray;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 10px;
+        }
+        
+
+        .solial .btn{
+
+            display: block;
+        }
+
+        input[type=text] {
+            font-size: 20px;
+            width: 90%;
+            padding: 15px;
+            border-radius: 15px;
+            border: 1px solid gray;
+            text-indent: 30px;
+        }
+        
+        input[type=email] {
+            font-size: 20px;
+            width: 90%;
+            padding: 15px;
+            border-radius: 15px;
+            border: 1px solid gray;
+            text-indent: 30px;
+        }
+        
+   
+        
+        input[type=tel] {
+            font-size: 20px;
+            width: 90%;
+            padding: 15px;
+            border-radius: 15px;
+            border: 1px solid gray;
+            text-indent: 30px;
+        }
+        
+        input[type=password] {
+            font-size: 20px;
+            width: 90%;
+            padding: 15px;
+            border-radius: 15px;
+            border: 1px solid gray;
+            text-indent: 30px;
+        }
+        
+        input[type=submit] {
+            font-size: 25px;
+            width: 50%;
+            padding: 15px;
+            border-radius: 15px;
+            border: 1px solid gray;
+            background-color: lightgreen;
+            margin-top: 33px;   
+        }
+
+        .user {
+            position: absolute;
+            top:22%;
+            left: 3%;
+        }
+        
+        .emailicon {
+            position: relative;  
+        }
+        
+        .eml {
+            position: absolute;
+            top:22%;
+            left: 3%;
+        }
+        
+        .phoneicon {
+            position: relative;  
+        }
+        
+        .phone {
+            position: absolute;
+            top:22%;
+            left: 3%;
+        }
+        
+        .keyicon {
+            position: relative;  
+        }
+        
+        .key {
+            position: absolute;
+            top:22%;
+            left: 3%;
+        }
+        
+        .ckeyicon {
+            position: relative;  
+        }
+        
+        .ckey {
+            position: absolute;
+            top:22%;
+            left: 3%;
+        }
+
+        .ico {
+            font-size: 20px;
+        }
+
+        
+    }
